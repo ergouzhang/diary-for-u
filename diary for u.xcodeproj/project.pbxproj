@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		FF1062C31CBC746600AFBA2C /* write2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1062C21CBC746600AFBA2C /* write2ViewController.swift */; };
+		FF1062C51CBC899300AFBA2C /* writetoplist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1062C41CBC899300AFBA2C /* writetoplist.swift */; };
+		FF1062C71CBC8C9700AFBA2C /* readfromplist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1062C61CBC8C9700AFBA2C /* readfromplist.swift */; };
+		FF1062C91CBC8F0B00AFBA2C /* time.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1062C81CBC8F0B00AFBA2C /* time.swift */; };
 		FF95F8591CBB9288004AAEB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95F8581CBB9288004AAEB5 /* AppDelegate.swift */; };
 		FF95F85B1CBB9288004AAEB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95F85A1CBB9288004AAEB5 /* ViewController.swift */; };
 		FF95F85E1CBB9288004AAEB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF95F85C1CBB9288004AAEB5 /* Main.storyboard */; };
@@ -39,6 +42,9 @@
 
 /* Begin PBXFileReference section */
 		FF1062C21CBC746600AFBA2C /* write2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = write2ViewController.swift; sourceTree = "<group>"; };
+		FF1062C41CBC899300AFBA2C /* writetoplist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = writetoplist.swift; sourceTree = "<group>"; };
+		FF1062C61CBC8C9700AFBA2C /* readfromplist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = readfromplist.swift; sourceTree = "<group>"; };
+		FF1062C81CBC8F0B00AFBA2C /* time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = time.swift; sourceTree = "<group>"; };
 		FF95F8551CBB9288004AAEB5 /* diary for u.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "diary for u.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF95F8581CBB9288004AAEB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF95F85A1CBB9288004AAEB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +121,9 @@
 				FF95F8611CBB9288004AAEB5 /* LaunchScreen.storyboard */,
 				FF95F8641CBB9288004AAEB5 /* Info.plist */,
 				FF1062C21CBC746600AFBA2C /* write2ViewController.swift */,
+				FF1062C41CBC899300AFBA2C /* writetoplist.swift */,
+				FF1062C61CBC8C9700AFBA2C /* readfromplist.swift */,
+				FF1062C81CBC8F0B00AFBA2C /* time.swift */,
 			);
 			path = "diary for u";
 			sourceTree = "<group>";
@@ -271,9 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF1062C51CBC899300AFBA2C /* writetoplist.swift in Sources */,
 				FF95F85B1CBB9288004AAEB5 /* ViewController.swift in Sources */,
 				FF1062C31CBC746600AFBA2C /* write2ViewController.swift in Sources */,
 				FF95F8871CBB9342004AAEB5 /* write1ViewController.swift in Sources */,
+				FF1062C71CBC8C9700AFBA2C /* readfromplist.swift in Sources */,
+				FF1062C91CBC8F0B00AFBA2C /* time.swift in Sources */,
 				FF95F8591CBB9288004AAEB5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

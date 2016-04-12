@@ -21,14 +21,6 @@
                                     <segue destination="JKy-DN-Du4" kind="modal" id="ACg-64-sYu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GP5-7w-5ce">
-                                <rect key="frame" x="162" y="117" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="edR-uz-6rT"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XoD-Cg-iqJ">
                                 <rect key="frame" x="107" y="49" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -132,11 +124,35 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PSC-0n-Nfh">
-                                <rect key="frame" x="119" y="292" width="46" height="30"/>
+                                <rect key="frame" x="21" y="523" width="45" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="上一页"/>
                                 <connections>
                                     <segue destination="JKy-DN-Du4" kind="modal" id="xGz-pA-O6f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vY0-9s-U5T">
+                                <rect key="frame" x="137" y="156" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="开心"/>
+                                <connections>
+                                    <action selector="happy:" destination="ofk-m1-Hjf" eventType="touchUpInside" id="lSM-rk-KoU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eSx-88-2NX">
+                                <rect key="frame" x="136" y="204" width="33" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="soso"/>
+                                <connections>
+                                    <action selector="soso:" destination="ofk-m1-Hjf" eventType="touchUpInside" id="d0h-iG-wZA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zCK-dT-6t1">
+                                <rect key="frame" x="115" y="252" width="75" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="有点儿不爽"/>
+                                <connections>
+                                    <action selector="littleunhappy:" destination="ofk-m1-Hjf" eventType="touchUpInside" id="S6a-iM-kAx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -149,7 +165,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q1M-U0-qbO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="302" y="-82"/>
+            <point key="canvasLocation" x="152" y="-80"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
