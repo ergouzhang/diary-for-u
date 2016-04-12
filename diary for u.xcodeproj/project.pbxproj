@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF1062C31CBC746600AFBA2C /* write2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1062C21CBC746600AFBA2C /* write2ViewController.swift */; };
 		FF95F8591CBB9288004AAEB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95F8581CBB9288004AAEB5 /* AppDelegate.swift */; };
 		FF95F85B1CBB9288004AAEB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95F85A1CBB9288004AAEB5 /* ViewController.swift */; };
 		FF95F85E1CBB9288004AAEB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF95F85C1CBB9288004AAEB5 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF1062C21CBC746600AFBA2C /* write2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = write2ViewController.swift; sourceTree = "<group>"; };
 		FF95F8551CBB9288004AAEB5 /* diary for u.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "diary for u.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF95F8581CBB9288004AAEB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF95F85A1CBB9288004AAEB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				FF95F88A1CBB94FA004AAEB5 /* sunny.jpg */,
 				FF95F8611CBB9288004AAEB5 /* LaunchScreen.storyboard */,
 				FF95F8641CBB9288004AAEB5 /* Info.plist */,
+				FF1062C21CBC746600AFBA2C /* write2ViewController.swift */,
 			);
 			path = "diary for u";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF95F85B1CBB9288004AAEB5 /* ViewController.swift in Sources */,
+				FF1062C31CBC746600AFBA2C /* write2ViewController.swift in Sources */,
 				FF95F8871CBB9342004AAEB5 /* write1ViewController.swift in Sources */,
 				FF95F8591CBB9288004AAEB5 /* AppDelegate.swift in Sources */,
 			);
@@ -501,6 +505,7 @@
 				FF95F87F1CBB9288004AAEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF95F8801CBB9288004AAEB5 /* Build configuration list for PBXNativeTarget "diary for uTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +514,7 @@
 				FF95F8821CBB9288004AAEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF95F8831CBB9288004AAEB5 /* Build configuration list for PBXNativeTarget "diary for uUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +523,7 @@
 				FF95F8851CBB9288004AAEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

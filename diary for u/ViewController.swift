@@ -18,6 +18,12 @@ class ViewController: UIViewController {
 
     @IBAction func btn(sender: AnyObject) {
         
+        //shijian
+        var date = NSDate()
+        var timeFormatter = NSDateFormatter()
+        timeFormatter.dateFormat = "yyy-MM-dd"
+        var strNowTime = timeFormatter.stringFromDate(date) as String
+        //shijian
         //读取数据
         var paths=NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)
         
@@ -27,9 +33,10 @@ class ViewController: UIViewController {
         
         var data=NSMutableDictionary(contentsOfFile:path)
     
-        print(path)
-        print(data!["weather2"])
-        label.text=data!["weather"]! as! String
+       var keyfordata=strNowTime+"weather"
+        print(keyfordata)
+        
+        label.text="\(data![keyfordata]! as! String)"
 //读取数据
     }
     override func didReceiveMemoryWarning() {

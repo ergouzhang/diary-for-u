@@ -26,7 +26,13 @@ class write1ViewController: UIViewController{
     
     @IBAction func rainny(sender: AnyObject) {
         
-     
+        //shijian
+        var date = NSDate()
+        var timeFormatter = NSDateFormatter()
+        timeFormatter.dateFormat = "yyy-MM-dd"
+        var strNowTime = timeFormatter.stringFromDate(date) as String
+        //shijian
+
         
         //plist 写入
         
@@ -50,8 +56,8 @@ class write1ViewController: UIViewController{
         }
 
 
-        
-               data?.setValue("雨天", forKey: "weather")
+         var keyforsearch:String=strNowTime+"weather"
+               data?.setValue("rainny", forKey: keyforsearch)
         
         data?.writeToFile(path, atomically: true)
         
@@ -67,6 +73,14 @@ class write1ViewController: UIViewController{
         
     }
     @IBAction func sunny(sender: AnyObject) {
+        //shijian
+        var date = NSDate()
+        var timeFormatter = NSDateFormatter()
+        timeFormatter.dateFormat = "yyy-MM-dd"
+        var strNowTime = timeFormatter.stringFromDate(date) as String
+//shijian
+        
+        
         //plist写入
         var paths=NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)
         var doucumentsDirectory:AnyObject=paths[0]
@@ -85,9 +99,9 @@ class write1ViewController: UIViewController{
         else{
             data=NSMutableDictionary(contentsOfFile:path)
         }
+        var keyforsearch:String=strNowTime+"weather"
         
-        
-        data?.setValue("晴天", forKey: "weather")
+        data?.setValue("sunny", forKey: keyforsearch)
         
         data?.writeToFile(path, atomically: true)
         //plist写入
@@ -106,7 +120,7 @@ class write1ViewController: UIViewController{
         //获取时间
         var date = NSDate()
         var timeFormatter = NSDateFormatter()
-        timeFormatter.dateFormat = "yyy-MM-dd  HH:mm"
+        timeFormatter.dateFormat = "yyy-MM-dd"
         var strNowTime = timeFormatter.stringFromDate(date) as String
         //获取时间
         
