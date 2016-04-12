@@ -54,7 +54,7 @@ class writemood{
     
     switch mood {
         
-    case "haooy":
+    case "happy":
     randdescriptionforweatherdata=["倍儿爽","h 1 ","h 2","h test1","h test2","h test3","h test4"]
     
     case "soso":

@@ -13,24 +13,21 @@ class write3ViewController: UIViewController {
     @IBOutlet var datelabel:UILabel?
     @IBOutlet var weatherlabel:UILabel?
     @IBOutlet var moodlabel:UILabel?
+    @IBOutlet var diary:UITextView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
-        //读取时间
-        var date = timetoget()
-        datelabel?.text=date.gettime()
-       
-        //读取天气
-        var weather = readweatherfromplist()
-        weatherlabel?.text = weather.read()
         
-        //读取心情
-        var mood = readmood()
-        moodlabel?.text=mood.readmooddata()
+    //写入之前数据，并进行整合
+       var write = writetodiary()
+        write.combine()
+      
+        //读到整合数据
+        var read = readdiary()
         
         
-        
+
+        diary?.text=read.read()
         
         
         

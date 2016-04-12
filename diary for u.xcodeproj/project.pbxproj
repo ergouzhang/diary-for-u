@@ -19,6 +19,12 @@
 		FF1062D51CBC9C0700AFBA2C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1062D41CBC9C0700AFBA2C /* icon.png */; };
 		FF1062D71CBC9DA100AFBA2C /* laoding.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1062D61CBC9DA100AFBA2C /* laoding.png */; };
 		FF1062D91CBC9FF900AFBA2C /* readmood.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1062D81CBC9FF900AFBA2C /* readmood.swift */; };
+		FF1062DD1CBCA4D000AFBA2C /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF1062DC1CBCA4D000AFBA2C /* background.jpg */; };
+		FF1062DF1CBCA7E900AFBA2C /* writebtn.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1062DE1CBCA7E900AFBA2C /* writebtn.png */; };
+		FF1062E11CBCBE5B00AFBA2C /* writetodiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1062E01CBCBE5B00AFBA2C /* writetodiary.swift */; };
+		FF1062E31CBCC00000AFBA2C /* readdiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1062E21CBCC00000AFBA2C /* readdiary.swift */; };
+		FF1062E51CBCC77200AFBA2C /* read.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1062E41CBCC77200AFBA2C /* read.png */; };
+		FF1062E71CBCC7C800AFBA2C /* read.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1062E61CBCC7C800AFBA2C /* read.swift */; };
 		FF95F8591CBB9288004AAEB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95F8581CBB9288004AAEB5 /* AppDelegate.swift */; };
 		FF95F85B1CBB9288004AAEB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95F85A1CBB9288004AAEB5 /* ViewController.swift */; };
 		FF95F85E1CBB9288004AAEB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF95F85C1CBB9288004AAEB5 /* Main.storyboard */; };
@@ -61,6 +67,12 @@
 		FF1062D41CBC9C0700AFBA2C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		FF1062D61CBC9DA100AFBA2C /* laoding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laoding.png; sourceTree = "<group>"; };
 		FF1062D81CBC9FF900AFBA2C /* readmood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = readmood.swift; sourceTree = "<group>"; };
+		FF1062DC1CBCA4D000AFBA2C /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		FF1062DE1CBCA7E900AFBA2C /* writebtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = writebtn.png; sourceTree = "<group>"; };
+		FF1062E01CBCBE5B00AFBA2C /* writetodiary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = writetodiary.swift; sourceTree = "<group>"; };
+		FF1062E21CBCC00000AFBA2C /* readdiary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = readdiary.swift; sourceTree = "<group>"; };
+		FF1062E41CBCC77200AFBA2C /* read.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = read.png; sourceTree = "<group>"; };
+		FF1062E61CBCC7C800AFBA2C /* read.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = read.swift; sourceTree = "<group>"; };
 		FF95F8551CBB9288004AAEB5 /* diary for u.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "diary for u.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF95F8581CBB9288004AAEB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF95F85A1CBB9288004AAEB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,14 +142,18 @@
 				FF95F8861CBB9342004AAEB5 /* write1ViewController.swift */,
 				FF1062C21CBC746600AFBA2C /* write2ViewController.swift */,
 				FF1062D21CBC9B6800AFBA2C /* write3ViewController.swift */,
+				FF1062E61CBCC7C800AFBA2C /* read.swift */,
 				FF95F85C1CBB9288004AAEB5 /* Main.storyboard */,
 				FF95F8581CBB9288004AAEB5 /* AppDelegate.swift */,
 				FF95F85A1CBB9288004AAEB5 /* ViewController.swift */,
 				FF95F85F1CBB9288004AAEB5 /* Assets.xcassets */,
 				FF1062D41CBC9C0700AFBA2C /* icon.png */,
 				FF95F88C1CBB94FF004AAEB5 /* rainny.gif */,
+				FF1062DE1CBCA7E900AFBA2C /* writebtn.png */,
 				FF95F88A1CBB94FA004AAEB5 /* sunny.jpg */,
+				FF1062DC1CBCA4D000AFBA2C /* background.jpg */,
 				FF1062CC1CBC9A4E00AFBA2C /* soso.gif */,
+				FF1062E41CBCC77200AFBA2C /* read.png */,
 				FF1062CD1CBC9A4E00AFBA2C /* happy.jpg */,
 				FF1062CE1CBC9A4E00AFBA2C /* littleunhappy.jpg */,
 				FF1062D61CBC9DA100AFBA2C /* laoding.png */,
@@ -148,6 +164,8 @@
 				FF1062C81CBC8F0B00AFBA2C /* time.swift */,
 				FF1062CA1CBC962D00AFBA2C /* writemood.swift */,
 				FF1062D81CBC9FF900AFBA2C /* readmood.swift */,
+				FF1062E01CBCBE5B00AFBA2C /* writetodiary.swift */,
+				FF1062E21CBCC00000AFBA2C /* readdiary.swift */,
 			);
 			path = "diary for u";
 			sourceTree = "<group>";
@@ -280,8 +298,11 @@
 				FF95F8601CBB9288004AAEB5 /* Assets.xcassets in Resources */,
 				FF1062D71CBC9DA100AFBA2C /* laoding.png in Resources */,
 				FF1062D51CBC9C0700AFBA2C /* icon.png in Resources */,
+				FF1062E51CBCC77200AFBA2C /* read.png in Resources */,
 				FF95F88D1CBB94FF004AAEB5 /* rainny.gif in Resources */,
 				FF1062D01CBC9A4E00AFBA2C /* happy.jpg in Resources */,
+				FF1062DF1CBCA7E900AFBA2C /* writebtn.png in Resources */,
+				FF1062DD1CBCA4D000AFBA2C /* background.jpg in Resources */,
 				FF1062D11CBC9A4E00AFBA2C /* littleunhappy.jpg in Resources */,
 				FF95F85E1CBB9288004AAEB5 /* Main.storyboard in Resources */,
 				FF95F88B1CBB94FA004AAEB5 /* sunny.jpg in Resources */,
@@ -319,6 +340,9 @@
 				FF1062C71CBC8C9700AFBA2C /* readfromplist.swift in Sources */,
 				FF1062C91CBC8F0B00AFBA2C /* time.swift in Sources */,
 				FF95F8591CBB9288004AAEB5 /* AppDelegate.swift in Sources */,
+				FF1062E71CBCC7C800AFBA2C /* read.swift in Sources */,
+				FF1062E11CBCBE5B00AFBA2C /* writetodiary.swift in Sources */,
+				FF1062E31CBCC00000AFBA2C /* readdiary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
