@@ -18,7 +18,7 @@ class timetoget{
         var timeFormatter = NSDateFormatter()
         timeFormatter.dateFormat = "yyy-MM-dd"
         var strNowTime = timeFormatter.stringFromDate(getdate) as String
-        //获取时间
+
 
     return strNowTime
     
