@@ -38,7 +38,7 @@ func write(diary:String){
         data=NSMutableDictionary(contentsOfFile:path)
     }
     
-    //设置key为时间＋心情
+    //设置key为时间
     var keyforsearch:String=strNowTime
     
     //写入心情
@@ -46,7 +46,7 @@ func write(diary:String){
     data?.writeToFile(path, atomically: true)
     
     
-    print(path)
+    
     }
     
 }

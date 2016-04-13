@@ -21,12 +21,15 @@ class CalendarView: UIView {
     var CurrentDay:Int=27
     var PickedDay : Int = 1
     
+    var dayfromplist=[Int]()
+    
+    var monthfromeplist=[Int]()
     //获取canlendar.plist
     var readcanlendarplist = writtenornot()
+
     
-    var datetomark = [String]()
-    
-    var ns1 = ""
+   
+      var ns4 :Int?
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -48,16 +51,28 @@ class CalendarView: UIView {
         
         PickedDay = CurrentDay
         
-        //获取canlendar.plists
-     var datewritten = readcanlendarplist.written()
-       
+//        //获取canlendar.plists
+ //          ns4 = readcanlendarplist.written()
+//       
+//        
+//        for date in datewritten as! [String]
+//        {  datetomark.append(date)
+//        
+//        }
+//        print(datetomark[0])
+//        
+//        //取String的第n位
+//        ns1 = (datetomark[0] as NSString).substringWithRange(NSMakeRange(5, 2))
+//        ns3 = (datetomark[0] as NSString).substringWithRange(NSMakeRange(8, 2))
+//        //转换成int
+//        ns2 = Int(ns1)
+//        ns4 = Int(ns3)
+//        print(ns2!,ns4!)
         
-        for date in datewritten as! [String]
-        {  datetomark.append(date)
+      dayfromplist = readcanlendarplist.day()
+       monthfromeplist = readcanlendarplist.month()
+        print(dayfromplist,monthfromeplist)
         
-        }
-        print(datetomark)
-        print(ns1)
         
     }
     
@@ -233,9 +248,19 @@ class CalendarView: UIView {
             //                PickRectPath.fill()
             //            }
             
-            if (comps.year == CurrentYear && comps.month == CurrentMonth && comps.day == day){
+            //if (comps.year == CurrentYear && comps.month == CurrentMonth && comps.day == day){
+           
+            //标红写过日记的日期
+            for i in 0...dayfromplist.count-1{
+            if (monthfromeplist[i] == CurrentMonth && dayfromplist[i] == day){
                 text.addAttribute(NSForegroundColorAttributeName, value: UIColor.redColor(),range:NSMakeRange(0,text.length))
-                text.addAttribute(NSFontAttributeName, value: UIFont.boldSystemFontOfSize(NSDefaultFontSize),range:NSMakeRange(0,text.length))
+                text.addAttribute(NSFontAttributeName, value: UIFont.boldSystemFontOfSize(NSDefaultFontSize),range:NSMakeRange(0,text.length))}
+                
+//                if (comps.year == 16 && comps.month == 3 && comps.day == day){
+//                    text.addAttribute(NSForegroundColorAttributeName, value: UIColor.redColor(),range:NSMakeRange(0,text.length))
+//                    text.addAttribute(NSFontAttributeName, value: UIFont.boldSystemFontOfSize(NSDefaultFontSize),range:NSMakeRange(0,text.length))
+                
+                
             }
             
             

@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "diary for u/calendar.swift"
-            timestampString = "482210257.067638"
+            timestampString = "482228502.621971"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "init(coder:)"
             landmarkType = "5">
          </BreakpointContent>
