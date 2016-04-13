@@ -10,19 +10,17 @@ import UIKit
 
 class readold: UIViewController {
 
-    @IBOutlet weak var readdata: UILabel!
+    @IBOutlet weak var diaryforlabel: UILabel!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 
-    
-        //读到整合数据
-        var readold = readdiary()
+        var read = readdiary()
         
         
         
-        readdata.text=readold.read()
-        
-        
+        diaryforlabel?.text=read.read()
+
         
     }
 

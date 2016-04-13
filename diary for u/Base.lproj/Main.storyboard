@@ -9,11 +9,23 @@
         <scene sceneID="liZ-oW-QJa">
             <objects>
                 <viewController id="0rX-65-AAI" customClass="readold" customModule="diary_for_u" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="MRb-0D-9MV">
+                    <view key="view" contentMode="scaleToFill" id="MRb-0D-9MV" customClass="CalendarView" customModule="diary_for_u" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MKP-W3-iIv">
+                                <rect key="frame" x="144" y="436" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="diaryforlabel" destination="MKP-W3-iIv" id="CD1-1f-86l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5ck-cl-ZzO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
