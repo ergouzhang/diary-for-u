@@ -27,6 +27,7 @@
 		FF1062E71CBCC7C800AFBA2C /* read.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1062E61CBCC7C800AFBA2C /* read.swift */; };
 		FF5067961CBD2AE400BDEEC2 /* calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5067951CBD2AE400BDEEC2 /* calendar.swift */; };
 		FF5067981CBD2C7400BDEEC2 /* calendarpanduan.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5067971CBD2C7400BDEEC2 /* calendarpanduan.swift */; };
+		FF50679C1CBDE4D100BDEEC2 /* writecanlendarplist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF50679B1CBDE4D100BDEEC2 /* writecanlendarplist.swift */; };
 		FF95F8591CBB9288004AAEB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95F8581CBB9288004AAEB5 /* AppDelegate.swift */; };
 		FF95F85B1CBB9288004AAEB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95F85A1CBB9288004AAEB5 /* ViewController.swift */; };
 		FF95F85E1CBB9288004AAEB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF95F85C1CBB9288004AAEB5 /* Main.storyboard */; };
@@ -77,6 +78,7 @@
 		FF1062E61CBCC7C800AFBA2C /* read.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = read.swift; sourceTree = "<group>"; };
 		FF5067951CBD2AE400BDEEC2 /* calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calendar.swift; sourceTree = "<group>"; };
 		FF5067971CBD2C7400BDEEC2 /* calendarpanduan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calendarpanduan.swift; sourceTree = "<group>"; };
+		FF50679B1CBDE4D100BDEEC2 /* writecanlendarplist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = writecanlendarplist.swift; sourceTree = "<group>"; };
 		FF95F8551CBB9288004AAEB5 /* diary for u.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "diary for u.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF95F8581CBB9288004AAEB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF95F85A1CBB9288004AAEB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				FF95F8861CBB9342004AAEB5 /* write1ViewController.swift */,
 				FF1062C21CBC746600AFBA2C /* write2ViewController.swift */,
 				FF1062D21CBC9B6800AFBA2C /* write3ViewController.swift */,
+				FF5067951CBD2AE400BDEEC2 /* calendar.swift */,
 				FF1062E61CBCC7C800AFBA2C /* read.swift */,
 				FF95F85C1CBB9288004AAEB5 /* Main.storyboard */,
 				FF95F8581CBB9288004AAEB5 /* AppDelegate.swift */,
@@ -170,8 +173,8 @@
 				FF1062D81CBC9FF900AFBA2C /* readmood.swift */,
 				FF1062E01CBCBE5B00AFBA2C /* writetodiary.swift */,
 				FF1062E21CBCC00000AFBA2C /* readdiary.swift */,
-				FF5067951CBD2AE400BDEEC2 /* calendar.swift */,
 				FF5067971CBD2C7400BDEEC2 /* calendarpanduan.swift */,
+				FF50679B1CBDE4D100BDEEC2 /* writecanlendarplist.swift */,
 			);
 			path = "diary for u";
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				FF1062D91CBC9FF900AFBA2C /* readmood.swift in Sources */,
 				FF1062C51CBC899300AFBA2C /* writetoplist.swift in Sources */,
 				FF95F85B1CBB9288004AAEB5 /* ViewController.swift in Sources */,
+				FF50679C1CBDE4D100BDEEC2 /* writecanlendarplist.swift in Sources */,
 				FF1062C31CBC746600AFBA2C /* write2ViewController.swift in Sources */,
 				FF95F8871CBB9342004AAEB5 /* write1ViewController.swift in Sources */,
 				FF1062CB1CBC962D00AFBA2C /* writemood.swift in Sources */,

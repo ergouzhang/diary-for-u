@@ -85,14 +85,16 @@ class writetodiary {
         }
         
         //设置key为时间＋心情
-        var keyforsearch:String=strNowTime+"diary"
+        var keyforsearch:String=strNowTime
         
         //写入心情
         data?.setValue(diary, forKey: keyforsearch)
         data?.writeToFile(path, atomically: true)
 
     
+
     
+        
     
     }
 

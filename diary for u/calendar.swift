@@ -21,6 +21,13 @@ class CalendarView: UIView {
     var CurrentDay:Int=27
     var PickedDay : Int = 1
     
+    //获取canlendar.plist
+    var readcanlendarplist = writtenornot()
+    
+    var datetomark = [String]()
+    
+    var ns1 = ""
+    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
@@ -40,6 +47,17 @@ class CalendarView: UIView {
         CurrentDay = strNowTimeDay!
         
         PickedDay = CurrentDay
+        
+        //获取canlendar.plists
+     var datewritten = readcanlendarplist.written()
+       
+        
+        for date in datewritten as! [String]
+        {  datetomark.append(date)
+        
+        }
+        print(datetomark)
+        print(ns1)
         
     }
     
@@ -196,6 +214,8 @@ class CalendarView: UIView {
         let today = NSDate()
         let calendar = NSCalendar(identifier: NSGregorianCalendar)
         let comps:NSDateComponents = calendar!.components([NSCalendarUnit.Year,NSCalendarUnit.Month,NSCalendarUnit.Day], fromDate: today)
+        
+        print(comps)
         
         //Clear
         DayRect.removeAll()

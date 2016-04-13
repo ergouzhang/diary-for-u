@@ -11,7 +11,7 @@ import Foundation
 class writtenornot{
 
 
-    func written(){
+    func written()->AnyObject{
     
     
         //获取时间
@@ -27,26 +27,19 @@ class writtenornot{
         
         var doucumentsDirectory:AnyObject=paths[0]
         
-        var path = doucumentsDirectory.stringByAppendingPathComponent("sample.plist")
+        var path = doucumentsDirectory.stringByAppendingPathComponent("canlendar.plist")
         
         var data=NSMutableDictionary(contentsOfFile:path)
         
         
-        var keyforsearch:String=strNowTime+"diary"
+      var date = data?.allKeys
         
-        //var diary=data![keyforsearch] as! String
+       
         
-        if data?.count != 0
-        {
-        
-        
+        return date!
+       
         
         
-        }
-    
-    
-    
-    
     }
 
 

@@ -21,13 +21,24 @@ class write3ViewController: UIViewController {
     //写入之前数据，并进行整合
        var write = writetodiary()
         write.combine()
-      
+        
+        
         //读到整合数据
         var read = readdiary()
         
         
-
+        var diraydata=read.read()
         diary?.text=read.read()
+        
+        
+        //写入日历plist
+        
+        var writetocalendar = writecalendarplist()
+        writetocalendar.write(diraydata)
+      
+
+        
+      
         
         
         

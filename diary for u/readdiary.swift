@@ -31,7 +31,7 @@ class readdiary{
         var data=NSMutableDictionary(contentsOfFile:path)
         
        
-        var keyforsearch:String=strNowTime+"diary"
+        var keyforsearch:String=strNowTime
         
         var diary=data![keyforsearch] as! String
         
