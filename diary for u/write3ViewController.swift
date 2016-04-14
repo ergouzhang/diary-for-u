@@ -24,11 +24,15 @@ class write3ViewController: UIViewController {
         
         
         //读到整合数据
+        var getdate = NSDate()
+        var timeFormatter = NSDateFormatter()
+        timeFormatter.dateFormat = "yyy-MM-dd"
+        var strNowTime = timeFormatter.stringFromDate(getdate) as String
         var read = readdiary()
         
         
-        var diraydata=read.read()
-        diary?.text=read.read()
+        var diraydata=read.read(strNowTime)
+        diary?.text=read.read(strNowTime)
         
         
         //写入日历plist

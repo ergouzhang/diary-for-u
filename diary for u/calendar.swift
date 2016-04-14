@@ -28,28 +28,29 @@ class CalendarView: UIView {
     var readcanlendarplist = writtenornot()
 
     
+    @IBOutlet weak var labelfordiaryselected: UILabel!
    
       var ns4 :Int?
     
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        
-        
-        var date = NSDate()
-        var timeFormatter = NSDateFormatter()
-        timeFormatter.dateFormat = "yyyy"
-        var strNowTimeYear = Int(timeFormatter.stringFromDate(date))
-        CurrentYear=strNowTimeYear!
-        
-        timeFormatter.dateFormat = "MM"
-        var strNowTimeMoth = Int(timeFormatter.stringFromDate(date))
-        CurrentMonth = strNowTimeMoth!
-        
-        timeFormatter.dateFormat = "dd"
-        var strNowTimeDay = Int(timeFormatter.stringFromDate(date))
-        CurrentDay = strNowTimeDay!
-        
-        PickedDay = CurrentDay
+//    required init?(coder aDecoder: NSCoder) {
+//        super.init(coder: aDecoder)
+//        
+    
+//        var date = NSDate()
+//        var timeFormatter = NSDateFormatter()
+//        timeFormatter.dateFormat = "yyyy"
+//        var strNowTimeYear = Int(timeFormatter.stringFromDate(date))
+//        CurrentYear=strNowTimeYear!
+//        
+//        timeFormatter.dateFormat = "MM"
+//        var strNowTimeMoth = Int(timeFormatter.stringFromDate(date))
+//        CurrentMonth = strNowTimeMoth!
+//        
+//        timeFormatter.dateFormat = "dd"
+//        var strNowTimeDay = Int(timeFormatter.stringFromDate(date))
+//        CurrentDay = strNowTimeDay!
+//        
+//        PickedDay = CurrentDay
         
 //        //获取canlendar.plists
  //          ns4 = readcanlendarplist.written()
@@ -69,12 +70,12 @@ class CalendarView: UIView {
 //        ns4 = Int(ns3)
 //        print(ns2!,ns4!)
         
-      dayfromplist = readcanlendarplist.day()
-       monthfromeplist = readcanlendarplist.month()
-        print(dayfromplist,monthfromeplist)
+//      dayfromplist = readcanlendarplist.day()
+//       monthfromeplist = readcanlendarplist.month()
+//        print(dayfromplist,monthfromeplist)
         
         
-    }
+    //}
     
     
     
@@ -190,6 +191,10 @@ class CalendarView: UIView {
         
         // if pick != 0 {self.PickedDay = pick }
         PickedDay = pick
+        
+        var datefordiary = readdiary()
+        var datecombine = "\(String(CurrentYear))-0\(String(CurrentMonth))-\(String(PickedDay))"
+        labelfordiaryselected.text = datefordiary.read(datecombine)
     }
     
     //根据触摸点获取日期
@@ -206,6 +211,25 @@ class CalendarView: UIView {
     // Only override drawRect: if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
     override func drawRect(rect: CGRect) {
+        
+        var date = NSDate()
+        var timeFormatter = NSDateFormatter()
+        timeFormatter.dateFormat = "yyyy"
+        var strNowTimeYear = Int(timeFormatter.stringFromDate(date))
+        CurrentYear=strNowTimeYear!
+        
+        timeFormatter.dateFormat = "MM"
+        var strNowTimeMoth = Int(timeFormatter.stringFromDate(date))
+        CurrentMonth = strNowTimeMoth!
+        
+        timeFormatter.dateFormat = "dd"
+        var strNowTimeDay = Int(timeFormatter.stringFromDate(date))
+        CurrentDay = strNowTimeDay!
+        
+        PickedDay = CurrentDay
+        dayfromplist = readcanlendarplist.day()
+        monthfromeplist = readcanlendarplist.month()
+        print(dayfromplist,monthfromeplist)
         
         let paragraph = NSMutableParagraphStyle()
         paragraph.alignment = NSTextAlignment.Center

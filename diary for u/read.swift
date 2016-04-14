@@ -10,17 +10,12 @@ import UIKit
 
 class readold: UIViewController {
 
-    @IBOutlet weak var diaryforlabel: UILabel!
+
    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        var read = readdiary()
-        
-        
-        
-        diaryforlabel?.text=read.read()
-
+       
         
     }
 

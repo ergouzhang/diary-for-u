@@ -9,7 +9,7 @@
 import Foundation
 class readdiary{
 
-    func read()->String{
+    func read(date:String)->String{
     
     
     
@@ -31,7 +31,7 @@ class readdiary{
         var data=NSMutableDictionary(contentsOfFile:path)
         
        
-        var keyforsearch:String=strNowTime
+        var keyforsearch:String=date
         
         var diary=data![keyforsearch] as! String
         
