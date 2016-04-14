@@ -20,6 +20,14 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yLB-qS-frd">
+                                <rect key="frame" x="16" y="530" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="返回"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="partialCurl" id="5Gn-wn-oD0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <connections>
@@ -46,7 +54,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="JKy-DN-Du4" kind="modal" id="ACg-64-sYu"/>
+                                    <segue destination="JKy-DN-Du4" kind="modal" modalTransitionStyle="partialCurl" id="ACg-64-sYu"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.jpg" id="peb-wO-a5s">
@@ -58,7 +66,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="read.png"/>
                                 <connections>
-                                    <segue destination="0rX-65-AAI" kind="modal" id="Lf6-UH-rxE"/>
+                                    <segue destination="0rX-65-AAI" kind="modal" modalTransitionStyle="partialCurl" id="Lf6-UH-rxE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -82,46 +90,70 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QOm-fB-aGe">
-                                <rect key="frame" x="130" y="41" width="35" height="21"/>
+                                <rect key="frame" x="92" y="35" width="116" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6qe-67-r9h">
-                                <rect key="frame" x="139" y="171" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="下雨"/>
-                                <connections>
-                                    <action selector="rainny:" destination="JKy-DN-Du4" eventType="touchUpInside" id="yEq-vM-cgR"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="z7R-JA-n9K">
-                                <rect key="frame" x="145" y="237" width="30" height="30"/>
+                                <rect key="frame" x="132" y="119" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="晴天"/>
+                                <state key="normal" title="晴"/>
                                 <connections>
                                     <action selector="sunny:" destination="JKy-DN-Du4" eventType="touchUpInside" id="TeW-77-U2a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6qe-67-r9h">
+                                <rect key="frame" x="132" y="88" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="雨"/>
+                                <connections>
+                                    <action selector="rainny:" destination="JKy-DN-Du4" eventType="touchUpInside" id="yEq-vM-cgR"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="rVg-Uf-BzN">
                                 <rect key="frame" x="40" y="323" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OdT-t5-xzl">
-                                <rect key="frame" x="255" y="480" width="45" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="下一页"/>
-                                <connections>
-                                    <segue destination="ofk-m1-Hjf" kind="modal" id="WGQ-Nf-jPb"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QLf-9G-Qqp">
                                 <rect key="frame" x="21" y="496" width="45" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="上一页"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="ZcY-Gv-i7k"/>
+                                    <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="partialCurl" id="ZcY-Gv-i7k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4YE-wy-Cr6">
+                                <rect key="frame" x="132" y="148" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="阴"/>
+                                <connections>
+                                    <action selector="nosun:" destination="JKy-DN-Du4" eventType="touchUpInside" id="ee0-Y3-0DE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6sB-FP-FX3">
+                                <rect key="frame" x="132" y="179" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="雪"/>
+                                <connections>
+                                    <action selector="snow:" destination="JKy-DN-Du4" eventType="touchUpInside" id="VFA-LI-f7V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vy8-sn-yiR">
+                                <rect key="frame" x="132" y="208" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="多云"/>
+                                <connections>
+                                    <action selector="cloudy:" destination="JKy-DN-Du4" eventType="touchUpInside" id="uuT-OK-JuB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OdT-t5-xzl">
+                                <rect key="frame" x="260" y="496" width="45" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="下一页"/>
+                                <connections>
+                                    <segue destination="ofk-m1-Hjf" kind="modal" modalTransitionStyle="partialCurl" id="WGQ-Nf-jPb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -148,22 +180,22 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0Ls-qt-H1R">
-                                <rect key="frame" x="141" y="20" width="124" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0Ls-qt-H1R">
+                                <rect key="frame" x="98" y="36" width="124" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="weather" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IHi-kU-2Fh">
-                                <rect key="frame" x="20" y="49" width="245" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="weather" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IHi-kU-2Fh">
+                                <rect key="frame" x="77" y="65" width="150" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="心情" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="huQ-Td-h0j">
-                                <rect key="frame" x="141" y="108" width="34" height="21"/>
+                                <rect key="frame" x="58" y="122" width="34" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -174,15 +206,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="上一页"/>
                                 <connections>
-                                    <segue destination="JKy-DN-Du4" kind="modal" id="xGz-pA-O6f"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vY0-9s-U5T">
-                                <rect key="frame" x="137" y="156" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="开心"/>
-                                <connections>
-                                    <action selector="happy:" destination="ofk-m1-Hjf" eventType="touchUpInside" id="lSM-rk-KoU"/>
+                                    <segue destination="JKy-DN-Du4" kind="modal" modalTransitionStyle="partialCurl" id="xGz-pA-O6f"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eSx-88-2NX">
@@ -210,7 +234,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="下一页"/>
                                 <connections>
-                                    <segue destination="i89-ll-Lh3" kind="modal" id="hOe-7F-I66"/>
+                                    <segue destination="i89-ll-Lh3" kind="modal" modalTransitionStyle="partialCurl" id="hOe-7F-I66"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vY0-9s-U5T">
+                                <rect key="frame" x="137" y="149" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="开心"/>
+                                <connections>
+                                    <action selector="happy:" destination="ofk-m1-Hjf" eventType="touchUpInside" id="lSM-rk-KoU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -270,7 +302,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="返回首页"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="P4Y-9d-04B"/>
+                                    <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="partialCurl" id="P4Y-9d-04B"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -294,7 +326,7 @@
         <image name="writebtn.png" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ZcY-Gv-i7k"/>
-        <segue reference="ACg-64-sYu"/>
+        <segue reference="xGz-pA-O6f"/>
+        <segue reference="P4Y-9d-04B"/>
     </inferredMetricsTieBreakers>
 </document>

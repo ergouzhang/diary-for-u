@@ -35,7 +35,27 @@ class write1ViewController: UIViewController{
     }
     
     //－－－－－－－－－－－－－－－－－－－
-//若是晴天
+
+    @IBAction func nosun(sender: AnyObject) {
+        var plist=writeweathertoplist()
+        
+        plist.write("nosun")
+
+    }
+    
+    @IBAction func snow(sender: AnyObject) {
+        var plist=writeweathertoplist()
+        
+        plist.write("snow")
+
+    }
+    @IBAction func cloudy(sender: AnyObject) {
+        var plist=writeweathertoplist()
+        
+        plist.write("cloudy")
+
+    }
+  //若是晴天
     @IBAction func sunny(sender: AnyObject) {
         
         
@@ -43,8 +63,6 @@ class write1ViewController: UIViewController{
     var plist=writeweathertoplist()
         
         plist.write("sunny")
-        
-      
         
 //呈现天气图像
         weatherdisp.image=UIImage(named: "sunny.jpg")

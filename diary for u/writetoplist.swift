@@ -50,12 +50,15 @@ class writeweathertoplist{
         switch data0
         {
         case "sunny":
-        randdescriptionforweatherdata=["天气真好啊","sunny呢～","这么好的天，该出去玩才对啊","r test1","s test2","s test3","s test4"]
+        randdescriptionforweatherdata=["天气真好啊","sunny呢～","这么好的天，该出去玩才对啊","太阳天空照，花儿对我笑","要洗～今天天气不错哦","u are my sunshine～","今天阳光充沛哟！","天气：晴～～☀️"]
        
         case "rainny":
-       randdescriptionforweatherdata=["下雨天了怎么办","下吧下吧我要开花","holly shit","s test1","r test2","r test3","r test4"]
+       randdescriptionforweatherdata=["下雨天了怎么办","下吧下吧我要开花","","雨下的那么深，下的那么认真嗯～","云青青兮欲雨，水澹澹兮生烟","雨天，在不开灯的房间","天气：雨～～☔️"]
             
-        default :randdescriptionforweatherdata=["nothing"]
+        case "nosun" :randdescriptionforweatherdata=["我的太阳你在哪","阴天，在不开灯的房间","天气：阴～～☁️","虽然阴天，当时也要保持好心情","阴天比较适合在家睡觉",]
+            case "snow":randdescriptionforweatherdata=["天气：雪～～❄️","哇，下雪了！","雪一片一片一片～","雪下的那么深，下的那么认真嗯","银妆素裹咯～"]
+            case "cloudy": randdescriptionforweatherdata=["万里～～多云","天气：多云"," 天上好多棉花糖哦哦哦","天山的云会飘到哪里去呢","云～～☁️"]
+        default:randdescriptionforweatherdata=["nothing"]
         }
         var num :UInt32 = UInt32(randdescriptionforweatherdata.count)
         let diceFaceCount: UInt32 = num

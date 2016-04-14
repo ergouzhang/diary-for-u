@@ -28,7 +28,6 @@
 		FF5067961CBD2AE400BDEEC2 /* calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5067951CBD2AE400BDEEC2 /* calendar.swift */; };
 		FF5067981CBD2C7400BDEEC2 /* calendarpanduan.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5067971CBD2C7400BDEEC2 /* calendarpanduan.swift */; };
 		FF50679C1CBDE4D100BDEEC2 /* writecanlendarplist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF50679B1CBDE4D100BDEEC2 /* writecanlendarplist.swift */; };
-		FF8CE5551CBE14AC004EA383 /* mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8CE5541CBE14AC004EA383 /* mark.swift */; };
 		FF95F8591CBB9288004AAEB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95F8581CBB9288004AAEB5 /* AppDelegate.swift */; };
 		FF95F85B1CBB9288004AAEB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95F85A1CBB9288004AAEB5 /* ViewController.swift */; };
 		FF95F85E1CBB9288004AAEB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF95F85C1CBB9288004AAEB5 /* Main.storyboard */; };
@@ -80,7 +79,6 @@
 		FF5067951CBD2AE400BDEEC2 /* calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calendar.swift; sourceTree = "<group>"; };
 		FF5067971CBD2C7400BDEEC2 /* calendarpanduan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calendarpanduan.swift; sourceTree = "<group>"; };
 		FF50679B1CBDE4D100BDEEC2 /* writecanlendarplist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = writecanlendarplist.swift; sourceTree = "<group>"; };
-		FF8CE5541CBE14AC004EA383 /* mark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mark.swift; sourceTree = "<group>"; };
 		FF95F8551CBB9288004AAEB5 /* diary for u.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "diary for u.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF95F8581CBB9288004AAEB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF95F85A1CBB9288004AAEB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -177,7 +175,6 @@
 				FF1062E21CBCC00000AFBA2C /* readdiary.swift */,
 				FF5067971CBD2C7400BDEEC2 /* calendarpanduan.swift */,
 				FF50679B1CBDE4D100BDEEC2 /* writecanlendarplist.swift */,
-				FF8CE5541CBE14AC004EA383 /* mark.swift */,
 			);
 			path = "diary for u";
 			sourceTree = "<group>";
@@ -356,7 +353,6 @@
 				FF95F8591CBB9288004AAEB5 /* AppDelegate.swift in Sources */,
 				FF1062E71CBCC7C800AFBA2C /* read.swift in Sources */,
 				FF1062E11CBCBE5B00AFBA2C /* writetodiary.swift in Sources */,
-				FF8CE5551CBE14AC004EA383 /* mark.swift in Sources */,
 				FF1062E31CBCC00000AFBA2C /* readdiary.swift in Sources */,
 				FF5067981CBD2C7400BDEEC2 /* calendarpanduan.swift in Sources */,
 			);
