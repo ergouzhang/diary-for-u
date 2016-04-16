@@ -55,12 +55,12 @@ class writemood{
     switch mood {
         
     case "happy":
-    randdescriptionforweatherdata=["倍儿爽","h 1 ","h 2","h test1","h test2","h test3","h test4"]
+    randdescriptionforweatherdata=["倍儿爽～～爽～爽～爽～","今个真高兴～😊","心情不错！ 么么哒！","哈哈哈哈😄～","今天很开心哟","yo yo yoooooo"]
     
     case "soso":
-        randdescriptionforweatherdata=["生活乐趣在哪～","生活乐趣在哪～2","生活乐趣在哪～3","生活乐趣在哪～4"]
+        randdescriptionforweatherdata=["今天过的没啥感觉～","好无聊，来点刺激的啊！","日子每天都过的差不多唉","今天也就那样吧","日子就在那里，不悲不喜"]
         case "unhappylittle":
-    randdescriptionforweatherdata=["人生的乐趣在哪～","人生的乐趣在哪～2"]
+    randdescriptionforweatherdata=["不 开 心 ！ 不 开 心！ 不 开 心！","what the fxuk","看我眼神！😠","去你大爷的，老子不爽！","别理我，烦！"]
     
     default:randdescriptionforweatherdata = ["default"]
         }

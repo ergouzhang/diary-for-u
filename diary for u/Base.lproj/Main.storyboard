@@ -168,6 +168,33 @@
             </objects>
             <point key="canvasLocation" x="222" y="312"/>
         </scene>
+        <!--Write4 View Controller-->
+        <scene sceneID="rDx-1A-6GE">
+            <objects>
+                <viewController id="30X-Ny-sGl" customClass="write4ViewController" customModule="diary_for_u" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mrl-qc-Kte">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.jpg" id="hez-4I-B1w">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="吃的有没有美味？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Pa1-uY-5BJ">
+                                <rect key="frame" x="9" y="149" width="226" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yyD-xG-Ehd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="665" y="185"/>
+        </scene>
         <!--Write2 View Controller-->
         <scene sceneID="tmi-aQ-EpB">
             <objects>
@@ -234,7 +261,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="下一页"/>
                                 <connections>
-                                    <segue destination="i89-ll-Lh3" kind="modal" modalTransitionStyle="partialCurl" id="hOe-7F-I66"/>
+                                    <segue destination="30X-Ny-sGl" kind="modal" id="i9P-Hi-XQV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vY0-9s-U5T">
@@ -326,7 +353,7 @@
         <image name="writebtn.png" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xGz-pA-O6f"/>
         <segue reference="P4Y-9d-04B"/>
+        <segue reference="ACg-64-sYu"/>
     </inferredMetricsTieBreakers>
 </document>

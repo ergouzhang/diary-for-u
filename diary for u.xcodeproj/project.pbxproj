@@ -38,6 +38,7 @@
 		FF95F8871CBB9342004AAEB5 /* write1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95F8861CBB9342004AAEB5 /* write1ViewController.swift */; };
 		FF95F88B1CBB94FA004AAEB5 /* sunny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF95F88A1CBB94FA004AAEB5 /* sunny.jpg */; };
 		FF95F88D1CBB94FF004AAEB5 /* rainny.gif in Resources */ = {isa = PBXBuildFile; fileRef = FF95F88C1CBB94FF004AAEB5 /* rainny.gif */; };
+		FF96CDB41CC1F75B00DC7412 /* write4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF96CDB31CC1F75B00DC7412 /* write4ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		FF95F8861CBB9342004AAEB5 /* write1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = write1ViewController.swift; path = ../write1ViewController.swift; sourceTree = "<group>"; };
 		FF95F88A1CBB94FA004AAEB5 /* sunny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunny.jpg; sourceTree = "<group>"; };
 		FF95F88C1CBB94FF004AAEB5 /* rainny.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rainny.gif; sourceTree = "<group>"; };
+		FF96CDB31CC1F75B00DC7412 /* write4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = write4ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				FF95F8861CBB9342004AAEB5 /* write1ViewController.swift */,
 				FF1062C21CBC746600AFBA2C /* write2ViewController.swift */,
 				FF1062D21CBC9B6800AFBA2C /* write3ViewController.swift */,
+				FF96CDB31CC1F75B00DC7412 /* write4ViewController.swift */,
 				FF5067951CBD2AE400BDEEC2 /* calendar.swift */,
 				FF1062E61CBCC7C800AFBA2C /* read.swift */,
 				FF95F85C1CBB9288004AAEB5 /* Main.storyboard */,
@@ -344,6 +347,7 @@
 				FF95F85B1CBB9288004AAEB5 /* ViewController.swift in Sources */,
 				FF50679C1CBDE4D100BDEEC2 /* writecanlendarplist.swift in Sources */,
 				FF1062C31CBC746600AFBA2C /* write2ViewController.swift in Sources */,
+				FF96CDB41CC1F75B00DC7412 /* write4ViewController.swift in Sources */,
 				FF95F8871CBB9342004AAEB5 /* write1ViewController.swift in Sources */,
 				FF1062CB1CBC962D00AFBA2C /* writemood.swift in Sources */,
 				FF1062D31CBC9B6800AFBA2C /* write3ViewController.swift in Sources */,
